@@ -21,10 +21,10 @@ const contexto = canvas.getContext('2d');
 const convite = {
   spriteX: 0,
   spriteY: 0,
-  largura: 285,
-  altura: 479,
-  x: (canvas.width / 2) - 285 / 2,
-  y: (canvas.height/ 2) - 479 / 2,
+  largura: 321,
+  altura: 487,
+  x: (canvas.width / 2) - 321 / 2,
+  y: (canvas.height/ 2) - 487 / 2,
   desenha() {
     contexto.fillStyle = '#70c5ce';
     contexto.fillRect(0,0, canvas.width, canvas.height)
